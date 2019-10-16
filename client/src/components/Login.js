@@ -38,6 +38,7 @@ class Login extends React.Component {
   }
 
   render() {
+    const { email, password } = this.state;
     return (
       <Container>
         <Row>
@@ -86,6 +87,7 @@ class Login extends React.Component {
                           type='submit'
                           color='success'
                           className='btn-block'
+                          disabled={email.length === 0 || password.length === 0}
                         >
                           Log In
                         </Button>
