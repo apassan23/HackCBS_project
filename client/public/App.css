@@ -1,0 +1,94 @@
+#root {
+  font-family: 'Lato';
+}
+
+#main-wrapper #main {
+  height: 140vh;
+}
+
+#headline-text {
+  height: 15%;
+}
+
+.dancing-font {
+  font-family: 'Dancing Script', cursive;
+}
+
+#headline-text > p {
+  margin-top: 20px;
+}
+
+button {
+  box-shadow: 0.2px 0.2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+#wrapper {
+  background-image: url('./OSZB620.jpg');
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  #main #card {
+    height: 74%;
+    width: 69%;
+  }
+  #main-wrapper #main,
+  #login-card-wrapper {
+    height: 100vh;
+  }
+
+  #headline-text {
+    height: 45%;
+  }
+
+  #headline-text > p {
+    margin-top: 0;
+  }
+}
+
+#card {
+  box-shadow: 0.2px 0.2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+#sign-form,
+#login-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#sign-form #form-groups,
+#login-form #form-groups {
+  width: 89%;
+}
+
+#sign-form input {
+  font-size: 0.95rem !important;
+}
+
+#login-form input {
+  font-size: 0.87rem !important;
+}
+
+#login-card-wrapper #login-card {
+  width: 35%;
+  box-shadow: 0.2px 0.2px 2.5px 0.4px rgba(0, 0, 0, 0.1);
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or::before,
+.or::after {
+  display: block;
+  background-color: lightgray;
+  content: '';
+  height: 1px;
+  width: 35%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
