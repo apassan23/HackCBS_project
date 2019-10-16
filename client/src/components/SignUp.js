@@ -96,9 +96,9 @@ class SignUp extends React.Component {
                         color='primary'
                         className='btn-block mt-5'
                         disabled={
-                          email.length == 0 ||
-                          password.length == 0 ||
-                          confirmPassword.length == 0
+                          email.length === 0 ||
+                          password.length === 0 ||
+                          confirmPassword.length === 0
                         }
                       >
                         Sign Up
