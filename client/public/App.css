@@ -1,5 +1,5 @@
 #root {
-  font-family: 'Lato';
+  font-family: 'Rubik', sans-serif;
 }
 
 #main-wrapper #main {
@@ -42,7 +42,7 @@ button {
   }
   #main-wrapper #main,
   #login-card-wrapper {
-    height: 100vh;
+    height: 93.7vh;
   }
 
   #headline-text {

@@ -5,8 +5,8 @@ import SignUp from './SignUp';
 const Home = () => {
   return (
     <React.Fragment>
-      <AppNavbar />
       <div className='container-fluid' id='wrapper'>
+        <AppNavbar />
         <SignUp />
       </div>
     </React.Fragment>

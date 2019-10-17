@@ -20,9 +20,9 @@ class AppNavbar extends React.Component {
 
   render() {
     return (
-      <Navbar color='bg-light' light expand='sm'>
+      <Navbar color='transparent' dark expand='sm'>
         <NavbarBrand href='/'>
-          <h4>U.M.I.</h4>
+          <h4 className='dancing-font'>U.M.I.</h4>
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
