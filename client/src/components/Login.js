@@ -82,7 +82,7 @@ class Login extends React.Component {
                           Trouble signing in?
                         </CardLink>
                       </FormGroup>
-                      <FormGroup className='w-100 text-center'>
+                      <FormGroup className='w-100 text-center mt-5'>
                         <Button
                           type='submit'
                           color='success'
@@ -92,20 +92,6 @@ class Login extends React.Component {
                           Log In
                         </Button>
                       </FormGroup>
-                      <div id='alternate' className='w-100'>
-                        <p className='or'>OR</p>
-                        <Button
-                          color='primary'
-                          type='button'
-                          className='btn-block'
-                          id='google-btn'
-                        >
-                          <span className='google-logo mr-3'>
-                            <i className='fab fa-google'></i>
-                          </span>
-                          Log in from Google
-                        </Button>
-                      </div>
                     </div>
                   </Form>
                 </CardBody>
