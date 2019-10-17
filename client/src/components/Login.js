@@ -76,10 +76,10 @@ class Login extends React.Component {
                       </FormGroup>
                       <FormGroup className='d-flex justify-content-end'>
                         <CardLink
-                          href=''
+                          href='/login/forgot_pwd'
                           style={{ color: 'orangered', fontSize: '12px' }}
                         >
-                          Trouble signing in?
+                          Trouble Logging in?
                         </CardLink>
                       </FormGroup>
                       <FormGroup className='w-100 text-center mt-5'>
