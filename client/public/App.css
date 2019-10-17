@@ -6,6 +6,14 @@
   height: 140vh;
 }
 
+#login-card-wrapper {
+  height: 100vh;
+}
+
+#login-card-wrapper .login-card {
+  width: 100%;
+}
+
 #headline-text {
   height: 15%;
 }
@@ -44,6 +52,13 @@ button {
   #headline-text > p {
     margin-top: 0;
   }
+
+  #login-card-wrapper .login-card {
+    width: 35%;
+  }
+  #main-login {
+    height: 45%;
+  }
 }
 
 #card {
@@ -59,7 +74,7 @@ button {
 }
 
 #sign-form #form-groups,
-#login-form #form-groups {
+#login-form #log-form-groups {
   width: 89%;
 }
 
@@ -71,8 +86,7 @@ button {
   font-size: 0.87rem !important;
 }
 
-#login-card-wrapper #login-card {
-  width: 35%;
+#login-card-wrapper .login-card {
   box-shadow: 0.2px 0.2px 2.5px 0.4px rgba(0, 0, 0, 0.1);
 }
 

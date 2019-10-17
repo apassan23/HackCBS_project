@@ -40,14 +40,14 @@ class Login extends React.Component {
   render() {
     const { email, password } = this.state;
     return (
-      <Container>
+      <Container id='login-container'>
         <Row>
           <Col>
             <div
               className='d-flex flex-column justify-content-center align-items-center'
               id='login-card-wrapper'
             >
-              <Card id='login-card' style={{ height: '45%' }}>
+              <Card className='login-card' id='main-login'>
                 <CardBody>
                   <h2 className='card-title text-center dancing-font'>
                     Log In
@@ -57,7 +57,7 @@ class Login extends React.Component {
                     id='login-form'
                     className='d-flex justify-content-center align-items-center'
                   >
-                    <div id='form-groups'>
+                    <div id='log-form-groups'>
                       <FormGroup>
                         <Input
                           type='email'
@@ -110,7 +110,7 @@ class Login extends React.Component {
                   </Form>
                 </CardBody>
               </Card>
-              <Card id='login-card' className='text-center mt-3'>
+              <Card className='login-card text-center mt-3'>
                 <CardBody>
                   Don't have an Account?{' '}
                   <CardLink href='/' style={{ color: 'orchid' }}>
